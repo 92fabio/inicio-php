@@ -53,10 +53,10 @@ $carro_quatro = [
 
 // eu exibi os valores armazenados no array e tbm inseri textos   
 
-echo 'modelo: ';               // echo exibi o valor na tela
+echo 'modelo: ';               // echo exibiu o texto modelo: na tela e com espaço 
 echo $carro_quatro['modelo'];  // aqui eu estou exibindo o valor modelo que esta armazenado no arry carro_quatro 
 
-echo '<br>';
+echo '<br>';                        // br pula a linha
 
 echo 'marca: ';                 // echo exibi o valor na tela
 echo $carro_quatro['marca'];  // aqui eu estou exibindo o valor modelo que esta armazenado no arry carro_quatro 
@@ -67,6 +67,5 @@ echo 'cor: ';                   // echo exibi o valor na tela
 echo $carro_quatro['cor'];  // aqui eu estou exibindo o valor modelo que esta armazenado no arry carro_quatro 
 
 echo '<br>';
-
 ?>
 
