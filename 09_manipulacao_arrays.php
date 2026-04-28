@@ -18,7 +18,7 @@ var_dump($carrinho);
 
 echo '<hr>';
 
-sort($carrinho);       // sort = organiza as posiçao ou em ordem crescente
+sort($carrinho);       // sort = reset o indice e ordena os valores
 var_dump($carrinho);
 
 ?>
