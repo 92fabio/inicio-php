@@ -19,7 +19,8 @@ echo ('<pre>');
                         
 //var_dump(array_keys($infoEmpresa));   
 // var_dump(array_values($infoEmpresa));  // array_valeus mostra os valores  do array 
-//var_dump(count($infoEmpresa));  // count conta os valores do arrayinfoEmpresa
+//var_dump(count($infoEmpresa));
+// count conta os valores do arrayinfoEmpresa 
 $infoEmpresa = array_merge($infoEmpresa,$infoCurso);
 print_r($infoEmpresa);             // array_merge junta os array infoEmpresa                                        
 ?>
