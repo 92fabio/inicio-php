@@ -10,11 +10,34 @@ $var2 = 'Furtado';
 $nome = 'Rubens Pereira';
 $empresa = 'Senac Americana';
 
-//echo 'O ' .$nome. ' é fundador da Empresa: ' .$empresa; exmplo 1
-//echo '<br>';
-//echo 'Fabio e ' .$nome. ' iniciou o curso de informática: ' .$empresa; exemplo 2
+echo 'O ' .$nome. ' é fundador da Empresa: ' .$empresa; //exmplo 1
+echo '<br>';
+//echo 'Fabio e ' .$nome. ' iniciou o curso de informática: ' .$empresa; 
 
-echo "O {$nome} é fundador da empresa: {$empresa}";
+echo "O {$nome} é fundador da empresa: {$empresa}"; //exemplo 2
+
+/*
+Operadores Aritméticos
++ soma
+- subtrai
+/ divide
+* multiplica
+% resto
+
+Operadores Relacionais
+> maior
+< menor
+>= maior igual
+<= menor igual
+== igual
+!= diferente
+
+Operadores lógicos
+&& e
+|| ou
+!  não
+
+*/
 
 ?>
 
